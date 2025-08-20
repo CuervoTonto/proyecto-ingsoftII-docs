@@ -4,7 +4,7 @@
 
 **como:** usuario \
 **quiero:** iniciar sesion en el software \
-**para:** poder realizar mis funciones
+**para:** poder realizar mis funciones \
 **estimado:**
 
 ---
@@ -13,7 +13,7 @@
 
 **como:** mesero \
 **quiero:** realizar la toma de pedidos de las diferentes mesas \
-**para:** comunicar al area correspondiente de los productos requeridos
+**para:** comunicar al area correspondiente de los productos requeridos \
 **estimado:**
 
 ---
@@ -22,7 +22,7 @@
 
 **como:** mesero \
 **quiero:** navegar a traves de los pedidos del dia \
-**para:** llevar un control de los pedidos
+**para:** llevar un control de los pedidos \
 **estimado:**
 
 ---
@@ -31,7 +31,7 @@
 
 **como:** mesero \
 **quiero:** eliminar los pedidos que no se encuentren completados \
-**para:** llevar un control de los pedidos
+**para:** llevar un control de los pedidos \
 **estimado:**
 
 ---
@@ -40,7 +40,7 @@
 
 **como:** mesero \
 **quiero:** ver los detalles de un pedido especifico \
-**para:** obtener la informacion del pedido
+**para:** obtener la informacion del pedido \
 **estimado:**
 
 ---
@@ -49,7 +49,7 @@
 
 **como:** mesero \
 **quiero:** poder cancelar un pedido \
-**para:** suplir la necesidad del cliente de cancelar su pedido
+**para:** suplir la necesidad del cliente de cancelar su pedido \
 **estimado:**
 
 ---
@@ -58,7 +58,7 @@
 
 **como:** mesero \
 **quiero:** marcar como completado un pedido \
-**para:** dar a conocer el estado actual de un pedido
+**para:** dar a conocer el estado actual de un pedido \
 **estimado:**
 
 ---
