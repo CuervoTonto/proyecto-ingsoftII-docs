@@ -2,9 +2,9 @@
 
 ## Historia #001
 
-**como:** empleado **quiero:** poder iniciar sesion **para:** acceder a los funcionalidades de la aplicacion
+**como** empleado **quiero** poder iniciar sesion **para** acceder a las funcionalidades de la aplicacion
 
-**Estimacion:** N/A
+**Estimacion:** 5
 
 ### Criterios de aceptacion
 
@@ -20,11 +20,19 @@
 - **Cuando:** no propocione los datos requeridos
 - **Entonces:** fallara la autenticacion
 
+3. [ ] **Primer ingreso**
+
+- **Dado que:** me autentique correcamente
+- **Cuando:** sea mi primer ingreso al sistema
+- **Entonces:** debo establecer una contraseña de acceso
+
 ***
 
 ## Historia #002
 
-**como:** mesero **quiero:** regitrar los pedidos de los clientes **para:** que la cocina obtenga la informacion para la preparacion de los platos
+**como** mesero **quiero** registrar los pedidos de los clientes **para** que la cocina obtenga la informacion requerida para la preparacion de los platos
+
+**Estimacion:** 8
 
 ### Criterios de aceptacion
 
@@ -44,9 +52,9 @@
 
 ## Historia #003
 
-- **Como:** Mesero
-- **Quiero:** poder cancelar los creados
-- **Para:** mantener la informacion de los pedidos acorde a lo que desean los clientes
+**como** mesero **quiero** poder cancelar los creados **para** reflejar el estado actual de los pedidos
+
+**Estimacion:** 3
 
 ### Criterios de aceptacion
 
@@ -70,25 +78,11 @@
 
 ***
 
-## Historia #004
-
-**como** mesero **quiero** poder actualizar el estado de un pedido a "entregado" o "completado" **para** que se refleje el estado actual del pedido
-
-**Estimacion:** ¿?
-
-### Criterios de aceptacion
-
-1. [ ] **Actualizar el estado de un pedido completado**
-2. [ ] **Actualizar el estado de un pedido con estado valido**
-
-
-***
-
 ## Historia #005
 
 **como** mesero **quiero** visualizar la informacion basica de los pedidos creados junto a sus respectivos estados **para** poder obtener rapidamente informacion sobre los pedidos
 
-**Estimacion:** ¿?
+**Estimacion:** 3
 
 ***
 
@@ -96,7 +90,7 @@
 
 **como** bartender **quiero** visualizar una lista con los pedidos del area de bar **para** facilitar la navegacion y busqueda entre los distintos pedidos
 
-**Estimacion:** ¿?
+**Estimacion:** 3
 
 ***
 
@@ -104,7 +98,7 @@
 
 **como** bartender **quiero** poder acceder a la informacion detallada de un pedido **para** preparar correctamente el pedido del cliente
 
-**Estimacion:** ¿?
+**Estimacion:** 3
 
 ***
 
@@ -112,7 +106,7 @@
 
 **como** bartender **quiero** marcar un pedido como preparado **para** dar a conocer a las partes interesadas sobre el estado actual del pedido
 
-**Estimacion:** ¿?
+**Estimacion:** 3
 
 ### Criterios de aceptacion
 
@@ -134,7 +128,7 @@
 
 **como** jefe de cocina **quiero** visualizar un listado con los pedidos del area de cocina **para** facilitar la navegacion y busqueda entre los diferentes pedidos
 
-**Estimacion:** ¿?
+**Estimacion:** 3
 
 ***
 
@@ -142,15 +136,15 @@
 
 **como** jefe de cocina **quiero** poder acceder a la informacion detallada de un pedido **para** preparar correctamente el pedido del cliente
 
-**Estimacion:** ¿?
+**Estimacion:** 3
 
 ***
 
 ## Historia #011
 
-**como** jefe de cocina **quiero** marcar un pedido como preparado **para** dar a conocer a las partes interesadas sobre el estado actual del pedido
+**como** jefe de cocina **quiero** marcar un pedido como "preparado" **para** dar a conocer a las partes interesadas sobre el estado actual del pedido
 
-**Estimacion:** ¿?
+**Estimacion:** 3
 
 ### Criterios de aceptacion
 
@@ -172,7 +166,7 @@
 
 **como** administrador **quiero** poder crear productos **para** enriquecer el catalogo y las posibles opciones para el menu del dia
 
-**Estimacion:** ¿?
+**Estimacion:** 5
 
 ### Criterios de aceptacion
 
@@ -200,7 +194,7 @@
 
 **como** administrador **quiero** poder eliminar un producto **para** mantener un catalogo limpio
 
-**Estimacion:** ¿?
+**Estimacion:** 3
 
 ***
 
@@ -208,17 +202,17 @@
 
 **como** adminsitrador **quiero** poder cambiar la informacion de un producto **para** mantenerla actualizada
 
-**Estimacion:** ¿?
+**Estimacion:** 5
 
 ### Criterios de aceptacion
 
-1. [ ] **Crear un producto con datos incorrectos**
+1. [ ] **Actualizar un producto con datos incorrectos**
 
 - **Dado que:** quiera cambiar la informacion de un producto
 - **Cuando:** no proporcione la informacion en el formato requerido
 - **Entonces:** no se podra actualizar la informacion del producto
 
-2. [ ] **Crear un producto con nombre en uso**
+2. [ ] **Actualizar un producto con nombre en uso**
 
 - **Dado que:** quiera cambiar la informacion de un producto
 - **Cuando:** propocione un nombre que ya se encuentre en uso por otro producto
@@ -228,9 +222,9 @@
 
 ## Historia #015
 
-**como** administrador **quiero** poder visualizar el listado de los producto **para** mantenerme informado de los productos del restaurante
+**como** administrador **quiero** poder visualizar el listado de los productos **para** mantenerme informado de los productos del restaurante
 
-**Estimacion:** ¿?
+**Estimacion:** 3
 
 ### Criterios de aceptacion
 
@@ -250,9 +244,9 @@
 
 ## Historia #016
 
-**como** administrador **quiero** poder obtener la informacion detallada de un producto **para** consultar la actual informacion de un producto
+**como** administrador **quiero** poder obtener la informacion detallada de un producto **para** consultar la informacion actual de un producto
 
-**Estimacion:** ¿?
+**Estimacion:** 3
 
 ***
 
@@ -260,7 +254,7 @@
 
 **como** administrador **quiero** poder crear un menu del dia **para** designar los productos que estaran en venta 
 
-**Estimacion:** ¿?
+**Estimacion:** 5
 
 ### Criterios de aceptacion
 
@@ -276,7 +270,7 @@
 
 **como** administrador **quiero** poder modificar un menu del dia **para** mantener al dia las opciones en el menu
 
-**Estimacion:** ¿?
+**Estimacion:** 8
 
 ### Criterios de aceptacion
 
@@ -290,9 +284,9 @@
 
 ## Historia #019
 
-**como** administrador **quiero** poder crear una categoria **para** @TODO
+**como** administrador **quiero** poder crear una categoria **para** obtener un nuevo elemento para enriquecer la informacion de los productos
 
-**Estimacion:** ¿?
+**Estimacion:** 5
 
 ### Criterios de aceptacion
 
@@ -318,17 +312,17 @@
 
 ## Historia #020
 
-**como** administrador **quiero** poder eliminar una categoria **para** @TODO
+**como** administrador **quiero** poder eliminar una categoria **para** poder gestionar de manera efectiva mis categorias
 
-**Estimacion:** ¿?
+**Estimacion:** 2
 
 ***
 
 ## Historia #021
 
-**como** administrador **quiero** poder visualizar un listado con las categorias disponibles **para** @TODO
+**como** administrador **quiero** poder visualizar un listado con las categorias disponibles **para** obtener la informacion de las categorias disponibles
 
-**Estimacion:** ¿?
+**Estimacion:** 2
 
 ***
 
@@ -336,7 +330,7 @@
 
 **como** administrador **quiero** poder asignar una categoria a un producto **para** enriquecer la informacion del producto
 
-**Estimacion:** ¿?
+**Estimacion:** 3
 
 ***
 
@@ -344,19 +338,15 @@
 
 **como** administrador **quiero** remover una categoria de un producto **para** mantener actualizada la informacion de un producto
 
-**Estimacion:** ¿?
+**Estimacion:** 3
 
 ***
 
 ## Historia #024
 
-**como** administrador **quiero** poder crear un nuevo empleado **para** @TODO
+**como** administrador **quiero** poder crear un nuevo empleado **para** agregar un nuevo usuario y permiterle acceder al sistema
 
-**Estimacion:** ¿?
-
-### Criterios de aceptacion
-
-1. [ ] ****
+**Estimacion:** 5
 
 ***
 
@@ -364,19 +354,15 @@
 
 **como** administrador **quiero** poder modificar la informacion de un empleado **para** mantener actualizados los datos del empleado
 
-**Estimacion:** ¿?
-
-### Criterios de aceptacion
-
-1. [ ] ****
+**Estimacion:** 5
 
 ***
 
 ## Historia #026
 
-**como** administrador **quiero** poder eliminar un empleado **para** @TODO
+**como** administrador **quiero** poder eliminar un empleado **para** gestionar de manera efectiva mis empleados
 
-**Estimacion:** ¿?
+**Estimacion:** 2
 
 ***
 
@@ -384,7 +370,7 @@
 
 **como** administrador **quiero** poder obtener la informacion detallada de un empleado **para** conocer los datos actuales del empleado
 
-**Estimacion:** ¿?
+**Estimacion:** 3
 
 ***
 
@@ -392,7 +378,7 @@
 
 **como** administrador **quiero** poder asignar roles a un empleado **para** designar las responsabilidades y funciones del empleado
 
-**Estimacion:** ¿?
+**Estimacion:** 3
 
 ### Criterios de aceptacion
 
@@ -408,7 +394,7 @@
 
 **como** administrador **quiero** poder remover roles de un empleado **para** designar las responsabilidades y funciones del empleado
 
-**Estimacion:** ¿?
+**Estimacion:** 5
 
 ***
 
@@ -416,7 +402,7 @@
 
 **como** administrador **quiero** poder iniciar sesion **para** tener acceso a las funcionalidades que me corresponden en el software
 
-**Estimacion:** ¿?
+**Estimacion:** 3
 
 ### Criterios de aceptacion
 
@@ -437,3 +423,29 @@
 - **Dado que:** quiero autenticarme
 - **Cuando:** no propocione las credenciales correctas para el inicio de sesion
 - **Entonces:** fallara la autenticacion
+
+## Historia #031
+
+**como** administrador **quiero** poder crear una mesa **para** establecer los puntos de atencion de mis meseros
+
+**Estimacion:** 5
+
+### Criterios de aceptacion
+
+1. [ ] **Numero de mesa repetido**
+
+- **Dado que:** quiero crear una nueva mesa
+- **Cuando:** proporcione un numero de mesa que ya se encuentre en uso
+- **Entonces:** no se permitira la creacion de la nueva mesa
+
+## Historia #032
+
+**como** administrador **quiero** poder eliminar una mesa **para** poder llevar una mejor gestion de las mesas
+
+**Estimacion:** 5
+
+### Criterios de aceptacion
+
+1. [ ] **Pedidos afectados**
+
+al elminar un mesa los pedidos asociados a la mesa no se veran alterados
